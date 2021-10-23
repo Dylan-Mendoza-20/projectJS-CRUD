@@ -27,7 +27,6 @@ var aplicacion = new function(){
             return this.empleados.innerHTML = datos;
         })
         .catch(console.log);
-        // datos="<tr><td>1</td><td>Oscar</td><td>esofp@gmail.com</td><td>Editar | Borrar</td></tr>";
         return this.empleados.innerHTML=datos;
     };
     this.agregar = function(){
