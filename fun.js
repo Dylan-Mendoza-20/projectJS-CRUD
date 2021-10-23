@@ -14,7 +14,7 @@ var aplicacion = new function(){
         .then((respuesta)=>{
 
             respuesta.map(
-                function(empleado, index, array){
+                function(empleado){
                     datos += "<tr>";
                     datos += "<td>" + empleado.id + "</td>";
                     datos += "<td>" + empleado.nombre + "</td>";
@@ -23,8 +23,8 @@ var aplicacion = new function(){
                     datos += "</tr>"
                 }
             );
-            return this.empleados.innerHTML = datos;
             console.log(respuesta);
+            return this.empleados.innerHTML = datos;
         })
         .catch(console.log);
         // datos="<tr><td>1</td><td>Oscar</td><td>esofp@gmail.com</td><td>Editar | Borrar</td></tr>";
