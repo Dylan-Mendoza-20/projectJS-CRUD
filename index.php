@@ -8,7 +8,7 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 // Conexion a la base de datos con usuario, contrasenia y nombre de la base de datos
 $servidor = "localhost";
 $usuario = "root";
-$contrasenia = "r8KPl6Ss";
+$contrasenia = "123456";
 $nombreBD = "prue_empleados";
 $conexion = new mysqli($servidor, $usuario, $contrasenia, $nombreBD);
 
